@@ -1,0 +1,170 @@
+/* *{
+	box-sizing: border-box;
+	outline: 1px solid limegreen !important;
+} */
+
+html{
+	width: 100%;
+	height: 100%;
+	background-color: #F3F5FC;
+
+}
+
+#logo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+}
+#logo img{
+	width: 100%;
+	height: auto;
+}
+
+#main-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: inherit;
+	width: 100%;
+	height: 90vh;
+}
+
+#btns-inicio{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap:3%;
+	align-items: center;
+	background-color: #F3F5FC;
+	position: absolute;
+	z-index: 1;
+}
+.btn{
+	width: 250px;
+	height: 60px;
+	border: 1px solid #0A3871;
+	border-radius: 16px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: red;
+	color: white;
+}
+
+.btn-iniciar{
+	background-color: #0A3871;
+	width: 270px;
+	height: 80px;
+	font-size: 20px;
+}
+.btn-agregar{
+	background-color: #F3F5FC;
+	color: #0A3871;
+}
+
+
+#area-previa{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: absolute;
+	z-index: -1;
+}
+#area-previa-centro{
+	width: 55%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #F3F5FC;
+}
+
+#txt-entrada{
+	width: 100%;
+	height: 100px;
+	color: #0A3871;
+	background-color: #F3F5FC;
+	font-size: xx-large;
+	border: none;
+}
+
+#area-previa-btns{
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	width: 100%;
+}
+#area-previa-btns p{
+	font-size: smaller;
+	color: #888;
+}
+#btns{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+#save{
+	background-color: #0A3871;
+	color: white;
+}
+#save:hover{
+	background-color: red;
+	color: white;
+}
+
+
+/* seccion del canvas */
+
+#juego-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #F3F5FC;
+	position: absolute;
+	z-index: -2;
+}
+
+#myCanvas{
+	width: 500px;
+	height: 500px;
+	border: 1px solid #0A3871;
+	margin-bottom: 10px;
+}
+
+
+#new{
+	background-color: #0A3871;
+	color: white;
+}
+#new:hover{
+	background-color: red;
+	color: white;
+}
+
+
+
+
+footer{
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+	bottom: 0%;
+	color: #aaa;
+	z-index: 999;
+}
+
+
+
+
